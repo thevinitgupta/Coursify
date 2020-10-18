@@ -1,0 +1,137 @@
+body { 
+    overflow-x: hidden; 
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat',sans-serif;
+
+}
+.top-head {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;   
+}
+.sub-head {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.feature-head {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 10%;
+}
+
+/* sections */
+.colored-section {
+    background-color: #06d6a0;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Title */
+#title .container-fluid {
+    padding: 3% 10% 7%;
+    text-align: left;
+}
+.navbar {
+    padding: 0 3rem 1rem 3rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px #3ee4b8b7;
+}
+.navbar-brand {
+    color: #1ac799;
+    font-size: 2.5rem;
+    font-weight: 350;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 2px 2px 2px 0;
+}
+.nav-item {
+    color: #1ac799;
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    color: #1ac799;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.nav-link:hover,.navbar-brand:hover {
+    color: #073b4c;
+}
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+.phn-img {
+    height: 15rem;
+    width: 25rem;
+    margin-bottom: 10px;
+}
+.reach {
+    height: 100%;
+    float: left;
+    padding-right: 5px;
+}
+/*  */
+
+/* Features */
+#features {
+    position: relative;
+}
+.feature {
+    padding: 7% 10%;
+}
+.feature-icon {
+    color: #1ac799;
+    font-size: 1.5rem;
+}
+.feature-icon:hover {
+    color: #073b4c;
+}
+.exams {
+    width: 12rem;
+    height: 4rem;
+    margin-bottom: 15px;
+}
+/* Testimonials */
+#testimonials {
+    background-color: #1ac799;
+}
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Princing */
+#pricing {
+    padding: 8%;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.card {
+    height: 100%;
+}
+
+
+/* Responsive */
+@media (max-width: 1024px){
+    #title{
+        text-align: center;
+    }
+}
